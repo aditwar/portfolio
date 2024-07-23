@@ -1,4 +1,4 @@
-import img from "src/assets/foto.png"
+import img from "../assets/foto.png"
 
 export default function Jumbotron() {
     return (
