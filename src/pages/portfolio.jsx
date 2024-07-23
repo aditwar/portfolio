@@ -1,3 +1,10 @@
+import img1 from "../assets/1.png"
+import img2 from "../assets/2.png"
+import img3 from "../assets/3.png"
+import img4 from "../assets/4.png"
+import img5 from "../assets/5.png"
+import img6 from "../assets/6.png"
+
 export default function Portfolio() {
     return (
     <section className="portfolio bg-light" id="portfolio">
@@ -10,7 +17,7 @@ export default function Portfolio() {
         <div className="row">
           <div className="col-md mb-4">
             <div className="card">
-              <img className="card-img-top" src="src/assets/1.png" alt="Card image cap" />
+              <img className="card-img-top" src={ img1 } alt="Card image cap" />
               <div className="card-body">
                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
@@ -19,7 +26,7 @@ export default function Portfolio() {
 
           <div className="col-md mb-4">
             <div className="card">
-              <img className="card-img-top" src="src/assets/2.png" alt="Card image cap" />
+              <img className="card-img-top" src={ img2 } alt="Card image cap" />
               <div className="card-body">
                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
@@ -28,7 +35,7 @@ export default function Portfolio() {
 
           <div className="col-md mb-4">
             <div className="card">
-              <img className="card-img-top" src="src/assets/3.png" alt="Card image cap" />
+              <img className="card-img-top" src={ img3 } alt="Card image cap" />
               <div className="card-body">
                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
@@ -39,7 +46,7 @@ export default function Portfolio() {
         <div className="row">
           <div className="col-md mb-4">
             <div className="card">
-              <img className="card-img-top" src="src/assets/4.png" alt="Card image cap" />
+              <img className="card-img-top" src={ img4 } alt="Card image cap" />
               <div className="card-body">
                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
@@ -47,7 +54,7 @@ export default function Portfolio() {
           </div> 
           <div className="col-md mb-4">
             <div className="card">
-              <img className="card-img-top" src="src/assets/5.png" alt="Card image cap" />
+              <img className="card-img-top" src={ img5 } alt="Card image cap" />
               <div className="card-body">
                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
                 </p>
@@ -57,7 +64,7 @@ export default function Portfolio() {
 
           <div className="col-md mb-4">
             <div className="card">
-              <img className="card-img-top" src="src/assets/6.png" alt="Card image cap" />
+              <img className="card-img-top" src={ img6 } alt="Card image cap" />
               <div className="card-body">
                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
